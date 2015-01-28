@@ -21,7 +21,7 @@ def gamePhase():
 				print("It's a tie game! Your choice: " + userInput + " The Computers choice: " + computerChoice)
 				time.sleep(3)
 				ask = raw_input("Would you like to play again? y/n")
-				elif ask == 'y':
+				if ask == 'y':
 					gamePhase()
 				elif ask == 'n':
 					selection = False
@@ -29,7 +29,7 @@ def gamePhase():
 				print("You win! Your choice: " + userInput + " The Computers choice: " + computerChoice)
 				time.sleep(3)
 				ask = raw_input("Would you like to play again? y/n")
-				elif ask == 'y':
+				if ask == 'y':
 					gamePhase()
 				elif ask == 'n':
 					selection = False
@@ -37,7 +37,7 @@ def gamePhase():
 				print("You lose! Your choice: " + userInput + " The Computers choice: " + computerChoice)
 				time.sleep(3)
 				ask = raw_input("Would you like to play again? y/n")
-				elif ask == 'y':
+				if ask == 'y':
 					gamePhase()
 				elif ask == 'n':
 					selection = False
@@ -45,7 +45,7 @@ def gamePhase():
 				print("You win! Your choice: " + userInput + " The Computers choice: " + computerChoice)
 				time.sleep(3)
 				ask = raw_input("Would you like to play again? y/n")
-				elif ask == 'y':
+				if ask == 'y':
 					gamePhase()
 				elif ask == 'n':
 					selection = False
@@ -53,7 +53,7 @@ def gamePhase():
 				print("You lose! Your choice: " + userInput + " The Computers choice: " + computerChoice)
 				time.sleep(3)
 				ask = raw_input("Would you like to play again? y/n")
-				elif ask == 'y':
+				if ask == 'y':
 					gamePhase()
 				elif ask == 'n':
 					selection = False
@@ -61,7 +61,7 @@ def gamePhase():
 				print("You lose! Your choice: " + userInput + " The Computers choice: " + computerChoice)
 				time.sleep(3)
 				ask = raw_input("Would you like to play again? y/n")
-				elif ask == 'y':
+				if ask == 'y':
 					gamePhase()
 				elif ask == 'n':
 					selection = False
@@ -69,7 +69,7 @@ def gamePhase():
 				print("You win! Your choice: " + userInput + " The Computers choice: " + computerChoice)
 				time.sleep(3)
 				ask = raw_input("Would you like to play again? y/n")
-				elif ask == 'y':
+				if ask == 'y':
 					gamePhase()
 				elif ask == 'n':
 					selection = False
